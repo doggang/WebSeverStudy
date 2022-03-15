@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav_bar{
+    margin: 30px 0 0 20px;
+    background-color: rgb(236, 236, 236);
+    width: 700px;
+    height: 75px;
+    background-image: url('./img/quicksbg.png');
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+#quick_box{
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    background-color: #1682CD;
+    color: white;
+    text-align: center;
+    overflow-wrap: break-word;
+    box-shadow: 3px 3px 10px 0px rgb(133, 133, 133);
+}
+#quick_box_main_title{
+    padding-top: 21px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#quick_box_title{
+    display: flex;
+    padding: 24px 180px;
+    font-size: 19px;
+}
+.quick_box_title_content{
+    padding: 0 20px;
+}
+#quick_box_title_stud{
+    border-right: 1px solid black;
+}
+#quick_box_title_stud:hover{
+    color: #1682CD;
+    cursor: pointer;
+}
+#quick_box_title_pro:hover{
+    color: #1682CD;
+    cursor: pointer;    
+}
+/*-------------article-------------*/
+#article{
+    width: 700px;
+    height: 300px;
+    background-color: rgb(250, 250, 250);
+    margin-left: 20px;
+}
+#article_stu{
+    display: flex;
+    padding: 18px 50px;
+}
+#article_stu_first{
+}
+.article_stu_first_wrap{
+    width: 100px;
+    height: 60px;
+    padding: 28px 0;
+    margin: 7px 0;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+.article_stu_first_wrap:hover{
+    background-color: #1671cd;
+    color: white;
+    cursor: pointer;
+}
+.stu_img{
+    position: relative;
+    width: 40px;
+    height: 42px;
+    background-repeat: no-repeat;
+    left: 50%;
+    margin-left: -18.6px;
+}
+/*1번쨰*/
+#stu_first:hover #ico1{
+    background-image: url('./img/quick-ico1-hov.png');
+}
+#ico1{
+    background-image: url('./img/quick-ico1.png');
+}
+/*2번쨰*/
+#stu_second:hover #ico2{
+    background-image: url('./img/quick-ico2-hov.png');
+}
+#ico2{
+    background-image: url('./img/quick-ico2.png');
+}
+/*3번째*/
+#stu_third:hover #ico3{
+    background-image: url('./img/quick-ico3-hov.png');
+}
+#ico3{
+    background-image: url('./img/quick-ico3.png');
+    background-size: 40px 37px;
+}

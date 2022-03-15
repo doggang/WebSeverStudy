@@ -1,0 +1,24 @@
+#form{
+    width: 260px;
+    height: 200px;
+    background-color: gray;
+}
+#table{
+    width: 100%;
+}
+#title{
+    text-align: start;
+}
+.bold{
+    font-weight: bold;
+    text-align: center;
+}
+.border{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#submit{
+    width: 168.4px;
+    background-color: white;
+    margin-top: 3px;
+}

@@ -1,0 +1,23 @@
+#text_wrap{
+    width: 670px;
+    height: 480px;
+    border: 1px solid black;
+}
+#img1{
+    position: relative;
+    border-radius: 50%;
+    padding: 0 10px 3px 0;
+    width: 200px;
+    float: left;
+}
+#img2{
+    position: relative;
+    border-radius: 50%;
+    padding: 0 10px 3px 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#text_content_second{
+    margin-top: 50px;
+}
